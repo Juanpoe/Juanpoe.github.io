@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bolsillo — Control de gastos personales</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d0d23; color: #fff; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 20px; }
+    .card { background: #1a1a3e; border-radius: 24px; padding: 48px 40px; max-width: 520px; width: 100%; text-align: center; box-shadow: 0 8px 40px rgba(108,99,255,0.2); }
+    .icon { font-size: 64px; margin-bottom: 16px; }
+    h1 { font-size: 2.4em; font-weight: 800; color: #fff; margin-bottom: 8px; }
+    .tagline { color: #a0a0c0; font-size: 1.1em; margin-bottom: 32px; }
+    .features { text-align: left; margin-bottom: 36px; }
+    .feature { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 14px; }
+    .feature-icon { color: #6c63ff; font-size: 1.2em; margin-top: 2px; }
+    .feature-text { color: #c0c0e0; font-size: 0.97em; line-height: 1.5; }
+    .badge { display: inline-block; background: linear-gradient(135deg, #6c63ff, #48c6ef); color: #fff; padding: 6px 18px; border-radius: 20px; font-size: 0.85em; font-weight: 600; margin-bottom: 28px; }
+    .privacy-link { color: #6c63ff; text-decoration: none; font-size: 0.9em; border-bottom: 1px solid #6c63ff44; padding-bottom: 2px; }
+    .privacy-link:hover { color: #48c6ef; }
+    footer { margin-top: 32px; color: #606080; font-size: 0.82em; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">💰</div>
+    <h1>Bolsillo</h1>
+    <p class="tagline">Tu control de gastos personales</p>
+    <div class="badge">Aplicación Android</div>
+    <div class="features">
+      <div class="feature">
+        <span class="feature-icon">✓</span>
+        <span class="feature-text">Detecta automáticamente tus gastos e ingresos desde los SMS de Bancolombia</span>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">✓</span>
+        <span class="feature-text">Conecta Gmail u Outlook para registrar transacciones desde correos bancarios</span>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">✓</span>
+        <span class="feature-text">Presupuestos mensuales, control de deudas y metas de ahorro</span>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">✓</span>
+        <span class="feature-text">Tus datos nunca salen de tu celular — sin servidores, sin publicidad</span>
+      </div>
+    </div>
+    <a class="privacy-link" href="privacy_policy.html">Política de Privacidad</a>
+  </div>
+  <footer>© 2026 Bolsillo · Desarrollado por Juan Esteban Carrascal</footer>
+</body>
+</html>
