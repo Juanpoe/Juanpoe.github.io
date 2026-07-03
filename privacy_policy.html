@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad — Bolsillo</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 0 auto; padding: 24px 20px; color: #222; line-height: 1.7; }
+    h1 { color: #1a1a2e; font-size: 2em; border-bottom: 2px solid #6c63ff; padding-bottom: 10px; }
+    h2 { color: #3d3d6b; margin-top: 32px; }
+    p, li { font-size: 15px; }
+    ul { padding-left: 20px; }
+    .updated { color: #888; font-size: 13px; margin-bottom: 32px; }
+    a { color: #6c63ff; }
+  </style>
+</head>
+<body>
+
+<h1>Política de Privacidad — Bolsillo</h1>
+<p class="updated">Última actualización: 2 de julio de 2026</p>
+
+<p>Bolsillo es una aplicación de control de gastos personales desarrollada por Juan Esteban Carrascal. Esta política de privacidad explica cómo se recopila, usa y protege la información de los usuarios.</p>
+
+<h2>1. Información que recopilamos</h2>
+<ul>
+  <li><strong>Mensajes SMS:</strong> La app lee mensajes SMS de Bancolombia para detectar transacciones automáticamente. Estos mensajes se procesan localmente en el dispositivo y nunca se envían a servidores externos.</li>
+  <li><strong>Correos electrónicos:</strong> Si el usuario conecta su cuenta de Gmail u Outlook/Hotmail mediante OAuth 2.0, la app accede únicamente a los correos de notificaciones bancarias de Bancolombia para registrar transacciones. No se leen ni almacenan correos de otro tipo.</li>
+  <li><strong>Datos financieros personales:</strong> Los movimientos, gastos, ingresos, deudas y presupuestos que el usuario registra se almacenan localmente en el dispositivo usando una base de datos SQLite.</li>
+</ul>
+
+<h2>2. Cómo usamos la información</h2>
+<ul>
+  <li>Detectar y registrar automáticamente transacciones bancarias de Bancolombia.</li>
+  <li>Mostrar resúmenes mensuales de gastos, ingresos y saldo neto.</li>
+  <li>Permitir la gestión de presupuestos, deudas y metas de ahorro.</li>
+</ul>
+<p>En ningún caso se usa la información para publicidad, perfiles de usuario, ni se comparte con terceros.</p>
+
+<h2>3. Almacenamiento y seguridad</h2>
+<p>Todos los datos se almacenan <strong>localmente en el dispositivo del usuario</strong>. Bolsillo no cuenta con servidores propios ni bases de datos en la nube. Los tokens de acceso a Gmail y Outlook se guardan de forma segura en el almacenamiento local del dispositivo (SharedPreferences cifrado por Android) y se usan exclusivamente para leer correos de notificaciones bancarias.</p>
+
+<h2>4. Permisos solicitados</h2>
+<ul>
+  <li><strong>READ_SMS / RECEIVE_SMS:</strong> Para leer mensajes de Bancolombia y detectar transacciones automáticamente.</li>
+  <li><strong>POST_NOTIFICATIONS:</strong> Para mostrar notificaciones de transacciones detectadas (Android 13+).</li>
+  <li><strong>Acceso a Gmail / Outlook (OAuth 2.0):</strong> Opcional. Solo si el usuario decide conectar su correo. El acceso es de solo lectura y limitado a correos de notificaciones bancarias.</li>
+</ul>
+
+<h2>5. Servicios de terceros</h2>
+<ul>
+  <li><strong>Google Sign-In (OAuth 2.0):</strong> Usado opcionalmente para conectar Gmail. Sujeto a la <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidad de Google</a>.</li>
+  <li><strong>Microsoft OAuth 2.0:</strong> Usado opcionalmente para conectar Outlook/Hotmail. Sujeto a la <a href="https://privacy.microsoft.com/es-es/privacystatement" target="_blank">Política de Privacidad de Microsoft</a>.</li>
+</ul>
+
+<h2>6. Datos de menores</h2>
+<p>Bolsillo no está dirigida a menores de 13 años y no recopila intencionalmente información de menores de edad.</p>
+
+<h2>7. Eliminación de datos</h2>
+<p>El usuario puede eliminar todos sus datos en cualquier momento desde la sección Ajustes → Eliminar todos los datos dentro de la aplicación. También puede revocar el acceso a Gmail u Outlook desde la configuración de su cuenta de Google o Microsoft.</p>
+
+<h2>8. Cambios a esta política</h2>
+<p>Si se realizan cambios significativos a esta política, se notificará dentro de la aplicación. El uso continuado de Bolsillo después de los cambios implica la aceptación de la nueva política.</p>
+
+<h2>9. Contacto</h2>
+<p>Para preguntas o solicitudes relacionadas con privacidad, puedes escribir a: <a href="mailto:juancudriz@gmail.com">juancudriz@gmail.com</a></p>
+
+</body>
+</html>
